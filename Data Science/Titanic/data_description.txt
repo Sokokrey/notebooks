@@ -1,0 +1,37 @@
+PassengerId: (Number) Passenger identifier.
+
+Survival: (Boolean) Indicates whether passenger survided or not.
+    0: Not survided
+    1: survided
+
+Pclass: (Categorical) Indicates ticket class
+    1: First class (Upper)
+    2: Second class (Middle)
+    3: Third class (Lower)
+
+Name: (String) Name of passenger
+
+Sex: (Categorical) Genre of passenger (male or female)
+
+Age: (Float) Age in years, fractionated in cases where < 1. Estimated ages are in xx.5 format
+
+SibSp: (Number) Defines family relations in this way...
+    Sibling = brother, sister, stepbrother, stepsister
+    Spouse = husband, wife (mistresses and fiancés were ignored)
+
+
+Parch: defines family relations in this way...
+    Parent = mother, father
+    Child = daughter, son, stepdaughter, stepson
+    Some children travelled only with a nanny, therefore parch=0 for them.
+
+Ticket: (String) Ticket number
+
+Fare: (Number) Passenger fare
+
+Cabin (String) Cabin number
+
+Embarked: (Char) Port of embarkation
+    C = Cherbourg
+    Q = Queenstown
+    S = Southampton
